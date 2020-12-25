@@ -1,0 +1,16 @@
+$colorprimary:rgb(247, 253, 255);
+$colorsecondary:rgb(1, 78, 104);
+
+body {
+    background: $colorprimary;
+}
+
+header {
+    background-color: $colorsecondary;
+    color: $colorprimary;
+}
+
+footer {
+    background-color: $colorsecondary;
+    color: $colorprimary;
+}
