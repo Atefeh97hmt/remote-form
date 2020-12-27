@@ -30,41 +30,57 @@
     </header>
 
 
-    <form class="border border-light p-5">
 
 
-        <div class="form-outline p-2 ">
-            <input type="number" id="typeNumber" class="form-control" />
-            <label class="form-label" for="typeNumber">کد پرسنلی</label>
+    <form class="x  p-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="form-outline p-2 ">
+                        <label for="start">تاریخ روز</label>
+
+                        <input type="date" id="start" name="trip-start" value="2020-10-22" min="2020-01-01" max="2021-12-31">
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="form-outline p-2 ">
+                        <input type="number" id="typeNumber" class="form-control" />
+                        <label class="form-label" for="typeNumber">کد پرسنلی</label>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="md-form md-outline p-2 ">
+                        <label for="default-picker">ساعت شروع</label>
+                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
 
-        <div class="md-form md-outline p-2 ">
-            <label for="default-picker">ساعت شروع</label>
-            <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="md-form md-outline p-2 ">
+                        <label for="default-picker">ساعت پایان</label>
+                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="md-form md-outline p-2 ">
+                        <label for="default-picker">مجموع ساعت کار</label>
+                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+                    </div>
+                </div>
 
+            </div>
         </div>
-        <div class="md-form md-outline p-2 ">
-            <label for="default-picker">ساعت پایان</label>
-            <input type="time" id="default-picker" class="form-control" placeholder="Select time">
 
-        </div>
-
-        <div class="md-form md-outline p-2 ">
-            <label for="default-picker">مجموع ساعت کار</label>
-            <input type="time" id="default-picker" class="form-control" placeholder="Select time">
-
-        </div>
-
-
-        <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker p-2 " inline="true">
-            <input placeholder="Select date" type="text" id="example" class="form-control">
-
-        </div>
-
-
-        <select class="browser-default custom-select mb-4 p-2 " id="select">
+        <select class="md-form md-outline  mb-4 p-2 " id="select">
             <option value="" disabled="" selected="">نحوه کار</option>
             <option value="1">Option 1</option>
             <option value="2">Option 2</option>
@@ -82,6 +98,8 @@
         <div class="text-center mt-4 p-2 ">
             <button class="btn btn-info btn-md waves-effect waves-light" type="submit">ثبت</button>
         </div>
+
+
 
 
 

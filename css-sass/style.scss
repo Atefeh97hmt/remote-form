@@ -1,6 +1,5 @@
-$colorprimary:rgb(247, 253, 255);
+$colorprimary:rgb(247, 253, 256);
 $colorsecondary:rgb(1, 78, 104);
-
 body {
     background: $colorprimary;
 }
@@ -13,4 +12,19 @@ header {
 footer {
     background-color: $colorsecondary;
     color: $colorprimary;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.x {
+    border: 2px solid black;
+    margin: 50px
 }

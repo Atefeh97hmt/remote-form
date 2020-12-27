@@ -11,4 +11,19 @@ footer {
   background-color: #014e68;
   color: #f7fdff;
 }
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+  margin: .4rem 0;
+}
+
+.x {
+  border: 2px solid black;
+  margin: 50px;
+}
 /*# sourceMappingURL=style.css.map */
