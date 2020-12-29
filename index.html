@@ -21,95 +21,125 @@
 
 
 
-    <header>
+    <!-- <header>
 
         <div class="p-2 text-center ">
             <h1 class="mb-3">employee remote form</h1>
         </div>
 
-    </header>
+    </header> -->
 
 
 
 
-    <form class="x  p-5">
+    <form class=" form ">
+        <div class="wrapper">
+            <div class=" card card-body">
+                <h2 class="title">Employee Remote Form</h2>
+                <div class="container ">
+                    <div class="row x">
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <label class="" for="typeNumber">کد پرسنلی</label>
+                            <div class="form-outline  ">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="form-outline p-2 ">
-                        <label for="start">تاریخ روز</label>
+                                <input type="number" id="typeNumber" class="form-control " />
 
-                        <input type="date" id="start" name="trip-start" value="2020-10-22" min="2020-01-01" max="2021-12-31">
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="form-outline p-2 ">
-                        <input type="number" id="typeNumber" class="form-control" />
-                        <label class="form-label" for="typeNumber">کد پرسنلی</label>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="md-form md-outline  ">
+                                <label for="default-picker">ساعت شروع</label>
+                                <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="md-form md-outline  ">
+                                <label for="default-picker">ساعت پایان</label>
+                                <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="md-form md-outline  ">
+                                <label for="default-picker">مجموع ساعت کار</label>
+                                <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="md-form md-outline  ">
+                                <label class=""> نحوه انجام کار</label>
+                                <select class=" " id="select">
+                                    <option value="" selected=" "> دور کاری</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-            </div>
-        </div>
 
 
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="md-form md-outline p-2 ">
-                        <label for="default-picker">ساعت شروع</label>
-                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
+
+
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <label class="">تاریخ روز</label>
+                            <div class="md-form md-outline  ">
+                                <input type="date" id="start" name="trip-start" value="2020-10-22" min="2020-01-01"
+                                    max="2021-12-31">
+                            </div>
+                            
+                <div class="text-center mt-2  ">
+                    <button class="btn" type="submit">ثبت</button>
+                </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+
+                            <label class="" for="textAreaExample">توضیحات</label>
+                            <div class="form-outline  ">
+                                <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="md-form md-outline p-2 ">
-                        <label for="default-picker">ساعت پایان</label>
-                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
-                    </div>
+
+
+
+                <div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <div class="md-form md-outline p-2 ">
-                        <label for="default-picker">مجموع ساعت کار</label>
-                        <input type="time" id="default-picker" class="form-control" placeholder="Select time">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <select class="md-form md-outline  mb-4 p-2 " id="select">
-            <option value="" disabled="" selected="">نحوه کار</option>
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-        </select>
-
-
-
-
-        <div class="form-outline p-2 ">
-            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
-            <label class="form-label" for="textAreaExample">توضیحات</label>
-        </div>
-
-        <div class="text-center mt-4 p-2 ">
-            <button class="btn btn-info btn-md waves-effect waves-light" type="submit">ثبت</button>
-        </div>
-
-
-
 
 
     </form>
 
-    <footer>
+    <!-- <footer>
         <div class="p-5 text-center ">
             <h1 class="">footer</h1>
         </div>
-    </footer>
+    </footer> -->
 
 
 
