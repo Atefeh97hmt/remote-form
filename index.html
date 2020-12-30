@@ -107,13 +107,12 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <label class="">تاریخ روز</label>
                             <div class="md-form md-outline  ">
-                                <input type="date" id="start" name="trip-start" value="2020-10-22" min="2020-01-01"
-                                    max="2021-12-31">
+                                <input type="date" id="start" name="trip-start" value="2020-10-22" min="2020-01-01" max="2021-12-31">
                             </div>
-                            
-                <div class="text-center mt-2  ">
-                    <button class="btn" type="submit">ثبت</button>
-                </div>
+
+                            <div class="text-center mt-2  ">
+                                <button class="btn" type="submit">ثبت</button>
+                            </div>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -134,6 +133,34 @@
 
 
     </form>
+
+
+
+
+    <form>
+        <!-- Field 1 -->
+        <div class="input-text form-group">
+            <input type="text" name="contact_name" id="contact_name" class="form-control" placeholder="Name">
+        </div>
+        <div class="input-text form-group">
+            <input type="text" name="contact_skype" id="contact_skype" class="form-control" placeholder="Skype ID">
+        </div>
+        <div class="input-text form-group">
+            <input type="text" name="contact_phone" id="contact_phone" class="form-control" placeholder="Phone Number">
+        </div>
+
+
+
+
+
+        <div class="form-control form-group">
+            <textarea id="contact_message1" name="contact_message1" class="textarea-message form-control" placeholder="Message" rows="5"></textarea>
+        </div>
+        <!-- Button -->
+        <button class="btn" type="button">Get a Quote</button>
+        <div class="row" id="alert"></div>
+    </form>
+
 
     <!-- <footer>
         <div class="p-5 text-center ">

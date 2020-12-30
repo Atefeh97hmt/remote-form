@@ -2,7 +2,7 @@ $colorprimary:rgb(247, 253, 256);
 $colorsecondary:rgb(1, 78, 104);
 body {
     background: $colorprimary;
-    
+    direction: rtl;
 }
 
 header {
@@ -19,76 +19,88 @@ label {
     display: block;
 }
 
-
-
-.card-body{
+.card-body {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
-margin-top: 70px;
-
-
+    margin-top: 70px;
 }
+
 .title {
     font-size: 24px;
     color: #0082aa;
     font-weight: 400;
     margin-bottom: 40px;
 }
+
 .wrapper {
     max-width: 680px;
-margin: 0 auto;  
+    margin: 0 auto;
 }
 
-
-
-
-input[type=text], textarea{
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
+}
 
-  input[type=date], textarea{
+input[type=date],
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    
-  }
-  select{
+}
+
+select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  
- 
-  label {
-    padding: 12px 12px 12px 0;
-  
-    text-align: right;
-  }
-  
+}
 
-  button[type=submit] {
+label {
+    padding: 12px 12px 12px 0;
+    text-align: right;
+}
+
+button[type=submit] {
     background-color: #0f3a7c;
     color: white;
-    padding:12px 40px;
+    padding: 12px 40px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: large;
-   
-  }
- .x{
+}
+
+.x {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid transparent;
+    height: 50px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.form-group {
+    margin-bottom: 15px;
 }

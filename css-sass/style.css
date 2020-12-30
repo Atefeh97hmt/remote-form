@@ -1,5 +1,6 @@
 body {
   background: #f7fdff;
+  direction: rtl;
 }
 
 header {
@@ -36,7 +37,8 @@ label {
   margin: 0 auto;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -46,7 +48,8 @@ input[type=text], textarea {
   resize: vertical;
 }
 
-input[type=date], textarea {
+input[type=date],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -88,5 +91,23 @@ button[type=submit] {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border: 1px solid transparent;
+  height: 50px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.form-group {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */
